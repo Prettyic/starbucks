@@ -1,0 +1,591 @@
+:root {
+    --cajita: black;
+    --color-text: #ffffff;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --color-copyRight: rgb(168, 165, 165);
+    --colorhr:#fff8f87c;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap'); */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: SoDo Sans,Helvetica,Arial,sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    padding: 20px 0;
+    
+}
+/* -------Oculto el menú que aparece cuando sale para pantalla pequeña------ */
+.ul_links{
+    display: none;
+}
+#label_hamburguesa{
+    display: none;
+}
+/* ----------------- */
+ul{
+    list-style: none;
+}
+header{
+    height: 122px;
+    box-shadow: 0 5px 5px rgb(192, 192, 192);
+}
+#info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
+#logo img{
+   width: 50px;
+   height: 50px;
+}
+
+
+.navx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+
+}
+#ubicacion{
+    width: 20px;
+    height: 30px;
+
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.nav2 i{
+    font-size: 30px;
+}
+
+.primera {
+    margin: 0 70px;
+    display: flex;
+    gap: 0;
+    margin-bottom: 30px;
+}
+
+.ul1{
+    width: 100%;
+    padding: 32px 16px;
+    background-color: rgb(30, 55, 30) ; 
+    border: 1px solid white;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ul1 h1, h2, p{
+    margin: 0;
+    text-align: center;
+}
+.ul1 h1{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+.ul1 #fontsize--h1{
+    font-size: 30px;
+}
+.ul1 h2{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.ul1 h4{
+    text-align: center;
+    font-size: 22px;
+}
+.ul1 p{
+    margin: 0 0 16px;
+    width: 70%;
+    text-align: center;
+}
+.ul1 a{
+    padding: 7px 16px;
+    text-decoration: none;
+    color: var(--color-text);
+    border: 1px solid var(--color-text);
+    border-radius: 15px;
+}
+#ul1--width{
+    width: 46%;
+}
+.primera #img__width{
+    width: 730px;
+    height: 400px;
+}
+.primera img{
+    width: 670px;
+    height: 400px;
+}
+#subtitulo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 90px;
+   
+
+}
+
+#subtitulo2{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-left: 100px;
+
+}
+#fondo_x{
+    background-color: var(--colorhr);
+}
+
+.ul2{
+    color:#fff;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+    flex-direction: column;
+    left: 1000px;   
+
+}
+
+.ul4{
+    width: 100%;
+    padding: 32px 16px;
+    background-color: var(--colorhr) ; 
+    border: 1px solid white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.primera2{
+    margin: 0 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 240, 240);
+    margin-bottom: 30px;
+    
+}
+.primera2 img{
+    width: 670px;
+    height: 400px;
+
+}
+#titulo3{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.ul3{
+    color:black;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+    flex-direction: column;
+    left: 1000px; 
+}
+
+
+#titulo{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+   
+}
+#div__img{
+    height: 410px;
+    width: 670px;
+    background-image: url('img/3foto.jpg');
+    background-repeat: no-repeat;
+}
+.segunda {
+    margin: 0 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(30, 55, 30);
+    margin-bottom: 30px;
+}
+
+
+#titulo4{
+ 
+
+    width: 70%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.uno7{
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    padding: 50px 170px;
+    box-shadow: 0 -5px 5px rgba(192, 192, 192, 0.5);
+}
+#section__footer{
+    width: 100%;
+    display: flex;
+    margin-bottom: 40px;
+}
+#footer1{
+    display: flex;
+    gap: 5pc;
+    margin-right: 100px; 
+}
+
+#footer1 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer1 ul li{
+    margin-bottom: 20px; 
+}
+
+#imgultima {
+    margin-left: 30pc;
+}
+
+#footer__icons{
+    width: 100%;
+}
+
+#footer__icons #redes__sociales{
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+#footer__icons #redes__sociales i{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+#terminos{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+#terminos ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: var(--color-copyRight);
+}
+#copyRight{
+    margin-top: 10px;
+}
+#copyR{
+    font-size: 15px;
+}
+#copyR2{
+    font-size: 10px;
+}
+#copyRight p{
+    color: var(--color-copyRight);
+}
+#footer__icons hr{
+    border-color:var(--colorhr);
+}
+
+@media (max-width:800px) {
+    body{
+        width: 100vw;
+    }
+    header{
+        width: 100%;
+        display: flex;
+    }
+    nav{
+        width: 100%;
+        margin: 0;
+        padding-right: 50px;
+    }
+    .navx{
+        width: 300px;
+    }
+    .primera {
+        margin: 0 20px;
+        display: flex;
+        gap: 0;
+        margin-bottom: 30px;
+    }
+    .primera img{
+        width: 430px;
+        height: 300px;
+    }
+    .ul1 h1{
+        font-size: 35px;
+    }
+    .ul1 h2{
+        font-size: 25px;
+    }
+    .ul1 p{
+        margin: 0 0 16px;
+        width: 80%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .ul4 h1{
+        font-size: 35px;
+    }
+    .ul4 h2{
+        font-size: 25px;
+    }
+    .ul4 p{
+        margin: 0 0 16px;
+        width: 80%;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .primera #ul1--width{
+        width: 91%;
+    }
+    .primera #img__width{
+        width: 100%;
+        height: 300px;  
+    }
+
+    /*solo para modificar el tamaño del h1 de la segunda section*/
+    #ul1--width h1{
+        font-size: 30px;
+    }
+    .ul1 h4{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .ul1 a{
+        margin-top: 10px;
+    }   
+    .ul4 h4{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .ul4 a{
+        margin-top: 10px;
+    }   
+    #ul1--background h1, p{
+        color: black;
+    }
+    #ul1--background{
+        background-color: rgb(236, 236, 236) !important;
+    }
+
+    /*Footer*/
+    footer {
+        padding: 50px 100px;
+    }
+    #footer1{
+        display: flex;
+        gap: 5pc;
+        margin-right: 0; 
+        gap: 0pc;
+    }
+    #imgultima {
+        margin-left: 10pc;
+    }
+    .p-color  {
+        color: #fff;
+
+    }
+}
+
+
+@media (max-width:755px){
+    body{
+        width: 160vw;
+    }
+    header{
+        width: 100%;
+        display: flex;
+    }
+
+    nav{
+        width: 100%;
+        margin: 0;
+        padding-right: 50px;
+    }
+
+}
+
+@media (max-width:467px){
+    body{
+        width: 160vw;
+    }
+    header{
+        width: 100%;
+        display: flex;
+    }
+
+    nav{
+        width: 100%;
+        margin: 0;
+        padding-right: 50px;
+    }
+}
+@media (max-width:1193px){
+    body{
+        width: 160vw;
+    }
+    header{
+        width: 100%;
+        display: flex;
+    }
+
+    nav{
+        width: 130%;
+        margin: 0;
+        padding-right: 50px;
+    }
+    footer {
+        padding: 60px 100px;
+    }
+
+}
+
+.menu_hamburguesa, .nav_logo{
+    display: none;
+}
+
+/* Medida para celulares pequeños y medianos */
+@media only screen and (min-width: 0px) and (max-width: 375px){
+    .ul_links{
+        display: block;
+    }
+    #label_hamburguesa{
+        display: block;
+    }
+    /* Quito el margen izquierdo y derecho de la página para
+    que en pantallas pequeñas ocupe todo el ancho.*/
+    .primera{
+        margin: 0;
+    } 
+    body{
+        width: 100vw;
+    };
+    header{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        flex-wrap: wrap;  /* Para que el menú se baje */
+        position: relative; /*Para sacar posicionar el menú*/
+    }
+    .ul_links{
+        width: 89%;
+        background-color: #356235;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       line-height: 50px;
+       text-transform: uppercase; /* Para colocar el texto del menú en mayúsculas */
+       position: absolute; /*Para poder posicionar los elementos del menú en cualquier lugar*/
+       top: 106px;
+       /* Ocultamos el menú */
+       height: 0;
+       overflow: hidden;
+        
+    }
+    .li_link{
+        color: #fff;
+        font-size: 20px;
+    }
+    .navx, .nav2{
+        display: none;
+    }
+    .nav_logo{
+        display: block;
+    }
+    /* Tamaño del icono de menú */
+    .bx{
+        font-size: 50px;
+    }
+    /* Cuando se le de clic al icono de haburguesa, se despliega el menú */
+   .menu_hamburguesa:checked + .ul_links{
+     height: calc(100vh - 400px);
+   }
+   .localizar{
+    display: flex;
+    justify-content: center;
+   }
+   .localizar i{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+   }
+   #section__uno, #section__dos, #section__tres, #section__cuatro{
+        flex-direction: column;
+   }
+   .primera img{
+        width: 100%;
+        height: 250px;
+   }
+   .section__info{
+    width: 91%;
+    height: 250px;
+    text-align: center;
+   }
+   
+
+   /* Footer */
+   #section__footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   #imgultima{
+    margin: 0;
+   }
+   #footer1{
+    gap: 5pc;
+   }
+   #redes__sociales{
+    width: 120% !important;
+   }
+
+   #terminos{
+    font-size: 10px;
+   }
+   #terminos ul{
+    gap: 5px;
+   }
+}
+
+
+
+
+
+
